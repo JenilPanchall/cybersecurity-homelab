@@ -1,0 +1,13 @@
+   # VM files and disk images never belong in Git
+   *.iso
+   *.bz2
+   *.7z
+   *.vmdk
+   *.vmx
+   *.vmem
+   *.nvram
+   # secrets and firewall backups
+   *.env
+   *.key
+   *.pem
+   config-*.xml
